@@ -231,4 +231,24 @@
         justify-content: center;
         text-justify: auto;
         color: gray;
+        margin-bottom: 10px;
     }
+
+#imagerlower{
+    width: 700px;
+    margin-top: 10px;
+}
+
+
+.lower-banner{
+    padding: 50px;
+   
+   
+}
+
+.lowerlow h1{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-family: princeton;
+}
