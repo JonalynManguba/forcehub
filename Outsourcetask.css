@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;800;900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,900&family=Roboto:wght@100;300;400;500&family=Unbounded&display=swap');
+
+@font-face {
+    font-family: princeton;
+    src: url(Princeton.ttf);
+}
+
+.form-control{
+   border-style: none;
+   border-radius: 20px;
+   
+
+}
+
+.user_option{
+    border-radius: 20px;
+    border-style: solid;
+    padding: 10px;
+    width: 300px;
+    color: darkgrey;
+}
+
+.home-profile{
+    margin-right: 10px;
+    margin-left:5px ;
+    padding: 10px;
+}
+
+.categories{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: wrap;
+    position: relative;
+
+}
+
+
+.main-cat{
+    margin-bottom: 10px;
+   }
+   
+.container-fluid{
+       border-bottom: 1px solid #e4e5e7;
+   }
+
+   .lower-nav{
+    border-bottom: 1px solid #e4e5e7;
+}
+.sub-categories a{
+    text-decoration: none;
+    color: black;
+    gap: 20px;
+  margin-left: 20px;
+}
+
+.sub-categories a:hover{
+    color: cadetblue;
+}
+
+/*end of nav and lower nav*/
+/* contact-section*/
+
+
+
+
+
+
+
+
+/*footer starts here*/
+.contact{
+    background-color: white;
+
+}
+
+.contact-info{
+    display: flex;
+    flex-direction: row;
+    column-gap: 100px;
+    padding: 100px;
+}
+
+.social-icons{
+    display: flex;
+    gap: 10px;
+    height: 50px;
+    flex-direction: row;
+}
+
+
+.contact-info p:hover{
+    color: cadetblue;
+}
+
+.footer-bottom{
+    display: flex;
+    gap: 400px;
+    margin-left: 80px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+
+.footer-bottom a{
+    text-decoration: none;
+    color: black;
+}
+
+/*footer Ends here*/
+
+/*header strts here*/
+
+.header{
+    padding: 50px;
+    display: block;
+    justify-content: center;
+    text-align: center;
+}
+
+.container-shop{
+    padding: 50px;
+    
+}
+
+
+.col{
+    margin-top: 20px;
+}
+.btn{
+    gap: 5px;
+    margin-bottom: 5px;
+}
+
