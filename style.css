@@ -252,3 +252,43 @@
     padding: 10px;
     font-family: princeton;
 }
+
+/* contact-section*/
+
+.contact{
+    background-color: white;
+
+}
+
+.contact-info{
+    display: flex;
+    flex-direction: row;
+    column-gap: 100px;
+    padding: 100px;
+}
+
+.social-icons{
+    display: flex;
+    gap: 10px;
+    height: 50px;
+    flex-direction: row;
+}
+
+
+.contact-info p:hover{
+    color: cadetblue;
+}
+
+.footer-bottom{
+    display: flex;
+    gap: 400px;
+    margin-left: 80px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+
+.footer-bottom a{
+    text-decoration: none;
+    color: black;
+}
